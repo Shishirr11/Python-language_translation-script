@@ -40,8 +40,6 @@ def translate_directory(input_directory, output_directory):
 
         if file_name.endswith('.txt') and is_telugu_text(input_file):
             translate_text(input_file, output_file)
-        else:
-            print(f'Skipping file: {input_file} (Not a Telugu text file)')
 
 #for actual path in your machine, use 
 #curDir= r'D:\codes\python
