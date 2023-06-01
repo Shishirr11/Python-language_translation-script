@@ -19,8 +19,11 @@ def translate_text(input_file, output_file):
 
 
 curDir = "/content"
-
+#for actual path in your machine, use 
+#curDir= r'D:\codes\python
 input_file = '/content/telugu.txt'
+#input_file=r'D:\codes\python\telugu.txt'
 output_file = '/content/hindi.txt'
+#output_file=r'D:\codes\python\hindi.txt'
 
 translate_text(input_file, output_file)
